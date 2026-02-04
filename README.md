@@ -5,7 +5,7 @@ public class main {
     System.out.print("何段のピラミッドをつくる？>");
     int num = new java.util.Scanner(System.in).nextInt();
 
-    //何行
+    //何行か
     for(int i = 0; i < num; i++) {
     //何列
       for(int j = 0; j < num + 1; j++) {
